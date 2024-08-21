@@ -10,7 +10,12 @@ int main() {
         price += k * i;
     }
 
-    cout << price - n << endl;
+    if (price <= n ) {
+        cout << 0 << endl;
+    }
+    else {
+        cout << price - n << endl;
+    }
     
     return 0;
 }
