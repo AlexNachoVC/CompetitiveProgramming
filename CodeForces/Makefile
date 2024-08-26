@@ -19,4 +19,4 @@ help:
 
 # Clean up the directory
 clean:
-	rm -f *.o $(basename $(wildcard *.cpp))
+	rm -f *.o *.exe
