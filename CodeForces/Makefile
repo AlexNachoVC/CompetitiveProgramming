@@ -2,7 +2,7 @@
 CXX = g++
 
 # Define the compiler flags
-CXXFLAGS = -Wall -std=c++14
+CXXFLAGS = -Wall -std=c++17
 
 # Default target
 all: help
