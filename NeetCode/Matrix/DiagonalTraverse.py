@@ -37,5 +37,5 @@ class Solution:
                     cur_col += 1
                 going_up = True     # after going all the way possible down, change our flag to going up
 
-        return res # after we have traversed all the matrix, return the resultant matrix
+        return res # after we have traversed all the matrix, return the resultant array
     
