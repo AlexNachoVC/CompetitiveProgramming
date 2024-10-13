@@ -1,6 +1,6 @@
 class Solution:
     def transpose(self, matrix: list[list[int]]) -> list[list[int]]:
-        rows, cols = len(matrix), len(matrix[0]) # get the size of the rows and cols of the original matria=x
+        rows, cols = len(matrix), len(matrix[0]) # get the size of the rows and cols of the original matrix
 
         res = [[0] * rows for _ in range(cols)] # create a new matrix, but reverse the sizes, new rows = old cols, new cols = old rows
 
